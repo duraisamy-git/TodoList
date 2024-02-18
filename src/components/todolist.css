@@ -91,3 +91,21 @@ h1{
     border-radius: 3px;
     outline: none;
 }
+@media (max-width : 600px){
+    .todo-container{
+        max-width: 90%;
+    }
+}
+
+@media (max-width:400px) {
+    .todo-input{
+        flex-direction: column;
+    }
+    .todo-input input[type="text"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .todo-input button{
+        width: 100%;
+    }
+}
